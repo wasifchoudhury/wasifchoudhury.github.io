@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume | Wasif Choudhury</title>
+<meta name="description" content="Resume of Wasif Choudhury.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap navbar">
+    <a class="brand" href="index.html#about">Wasif Choudhury</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <nav id="navLinks" aria-label="Main">
+      <a href="index.html#about">About</a>
+      <a href="index.html#journey">Journey</a>
+      <a href="index.html#highlights">Highlights</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="resume.html" aria-current="page" class="active">Resume</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap resume">
+  <!-- Toolbar: Download button sits top right. -->
+  <div class="toolbar">
+    <h1>Resume</h1>
+    <p class="actions">
+      <a class="textlink" href="documents/CV.pdf" target="_blank" rel="noopener">Open in new tab</a>
+      <a class="btn" href="documents/CV.pdf" download="Wasif-Choudhury-CV.pdf">Download</a>
+    </p>
+  </div>
+  <!-- The PDF viewer. If the browser cannot show PDFs (often on phones), the text inside is shown instead. -->
+  <object class="pdf" data="documents/CV.pdf" type="application/pdf">
+    <p>Your browser cannot show the PDF here. <a href="documents/CV.pdf" target="_blank" rel="noopener">Open the resume in a new tab</a> or <a href="documents/CV.pdf" download="Wasif-Choudhury-CV.pdf">download it</a>.</p>
+  </object>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
